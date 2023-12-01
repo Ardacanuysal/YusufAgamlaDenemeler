@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3215EF452B196EFF001BD30D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3215EF442B196EFF001BD30D /* AppDelegate.swift */; };
+		3215EF472B196EFF001BD30D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3215EF462B196EFF001BD30D /* SceneDelegate.swift */; };
+		3215EF492B196EFF001BD30D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3215EF482B196EFF001BD30D /* ViewController.swift */; };
+		3215EF4C2B196EFF001BD30D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3215EF4A2B196EFF001BD30D /* Main.storyboard */; };
+		3215EF4E2B196EFF001BD30D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3215EF4D2B196EFF001BD30D /* Assets.xcassets */; };
+		3215EF512B196EFF001BD30D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3215EF4F2B196EFF001BD30D /* LaunchScreen.storyboard */; };
+		3215EF5C2B196F00001BD30D /* ArdaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3215EF5B2B196F00001BD30D /* ArdaTests.swift */; };
+		3215EF662B196F00001BD30D /* ArdaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3215EF652B196F00001BD30D /* ArdaUITests.swift */; };
+		3215EF682B196F00001BD30D /* ArdaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3215EF672B196F00001BD30D /* ArdaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3215EF582B196F00001BD30D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3215EF392B196EFE001BD30D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3215EF402B196EFF001BD30D;
+			remoteInfo = Arda;
+		};
+		3215EF622B196F00001BD30D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3215EF392B196EFE001BD30D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3215EF402B196EFF001BD30D;
+			remoteInfo = Arda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3215EF412B196EFF001BD30D /* Arda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3215EF442B196EFF001BD30D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3215EF462B196EFF001BD30D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3215EF482B196EFF001BD30D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3215EF4B2B196EFF001BD30D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3215EF4D2B196EFF001BD30D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3215EF502B196EFF001BD30D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3215EF522B196EFF001BD30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3215EF572B196F00001BD30D /* ArdaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArdaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3215EF5B2B196F00001BD30D /* ArdaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArdaTests.swift; sourceTree = "<group>"; };
+		3215EF612B196F00001BD30D /* ArdaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArdaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3215EF652B196F00001BD30D /* ArdaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArdaUITests.swift; sourceTree = "<group>"; };
+		3215EF672B196F00001BD30D /* ArdaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArdaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3215EF3E2B196EFF001BD30D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3215EF542B196F00001BD30D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3215EF5E2B196F00001BD30D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3215EF382B196EFE001BD30D = {
+			isa = PBXGroup;
+			children = (
+				3215EF432B196EFF001BD30D /* Arda */,
+				3215EF5A2B196F00001BD30D /* ArdaTests */,
+				3215EF642B196F00001BD30D /* ArdaUITests */,
+				3215EF422B196EFF001BD30D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3215EF422B196EFF001BD30D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3215EF412B196EFF001BD30D /* Arda.app */,
+				3215EF572B196F00001BD30D /* ArdaTests.xctest */,
+				3215EF612B196F00001BD30D /* ArdaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3215EF432B196EFF001BD30D /* Arda */ = {
+			isa = PBXGroup;
+			children = (
+				3215EF442B196EFF001BD30D /* AppDelegate.swift */,
+				3215EF462B196EFF001BD30D /* SceneDelegate.swift */,
+				3215EF482B196EFF001BD30D /* ViewController.swift */,
+				3215EF4A2B196EFF001BD30D /* Main.storyboard */,
+				3215EF4D2B196EFF001BD30D /* Assets.xcassets */,
+				3215EF4F2B196EFF001BD30D /* LaunchScreen.storyboard */,
+				3215EF522B196EFF001BD30D /* Info.plist */,
+			);
+			path = Arda;
+			sourceTree = "<group>";
+		};
+		3215EF5A2B196F00001BD30D /* ArdaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3215EF5B2B196F00001BD30D /* ArdaTests.swift */,
+			);
+			path = ArdaTests;
+			sourceTree = "<group>";
+		};
+		3215EF642B196F00001BD30D /* ArdaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3215EF652B196F00001BD30D /* ArdaUITests.swift */,
+				3215EF672B196F00001BD30D /* ArdaUITestsLaunchTests.swift */,
+			);
+			path = ArdaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3215EF402B196EFF001BD30D /* Arda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3215EF6B2B196F00001BD30D /* Build configuration list for PBXNativeTarget "Arda" */;
+			buildPhases = (
+				3215EF3D2B196EFF001BD30D /* Sources */,
+				3215EF3E2B196EFF001BD30D /* Frameworks */,
+				3215EF3F2B196EFF001BD30D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arda;
+			productName = Arda;
+			productReference = 3215EF412B196EFF001BD30D /* Arda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3215EF562B196F00001BD30D /* ArdaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3215EF6E2B196F00001BD30D /* Build configuration list for PBXNativeTarget "ArdaTests" */;
+			buildPhases = (
+				3215EF532B196F00001BD30D /* Sources */,
+				3215EF542B196F00001BD30D /* Frameworks */,
+				3215EF552B196F00001BD30D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3215EF592B196F00001BD30D /* PBXTargetDependency */,
+			);
+			name = ArdaTests;
+			productName = ArdaTests;
+			productReference = 3215EF572B196F00001BD30D /* ArdaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3215EF602B196F00001BD30D /* ArdaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3215EF712B196F00001BD30D /* Build configuration list for PBXNativeTarget "ArdaUITests" */;
+			buildPhases = (
+				3215EF5D2B196F00001BD30D /* Sources */,
+				3215EF5E2B196F00001BD30D /* Frameworks */,
+				3215EF5F2B196F00001BD30D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3215EF632B196F00001BD30D /* PBXTargetDependency */,
+			);
+			name = ArdaUITests;
+			productName = ArdaUITests;
+			productReference = 3215EF612B196F00001BD30D /* ArdaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3215EF392B196EFE001BD30D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3215EF402B196EFF001BD30D = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					3215EF562B196F00001BD30D = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 3215EF402B196EFF001BD30D;
+					};
+					3215EF602B196F00001BD30D = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 3215EF402B196EFF001BD30D;
+					};
+				};
+			};
+			buildConfigurationList = 3215EF3C2B196EFE001BD30D /* Build configuration list for PBXProject "Arda" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3215EF382B196EFE001BD30D;
+			productRefGroup = 3215EF422B196EFF001BD30D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3215EF402B196EFF001BD30D /* Arda */,
+				3215EF562B196F00001BD30D /* ArdaTests */,
+				3215EF602B196F00001BD30D /* ArdaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3215EF3F2B196EFF001BD30D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3215EF512B196EFF001BD30D /* LaunchScreen.storyboard in Resources */,
+				3215EF4E2B196EFF001BD30D /* Assets.xcassets in Resources */,
+				3215EF4C2B196EFF001BD30D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3215EF552B196F00001BD30D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3215EF5F2B196F00001BD30D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3215EF3D2B196EFF001BD30D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3215EF492B196EFF001BD30D /* ViewController.swift in Sources */,
+				3215EF452B196EFF001BD30D /* AppDelegate.swift in Sources */,
+				3215EF472B196EFF001BD30D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3215EF532B196F00001BD30D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3215EF5C2B196F00001BD30D /* ArdaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3215EF5D2B196F00001BD30D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3215EF682B196F00001BD30D /* ArdaUITestsLaunchTests.swift in Sources */,
+				3215EF662B196F00001BD30D /* ArdaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3215EF592B196F00001BD30D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3215EF402B196EFF001BD30D /* Arda */;
+			targetProxy = 3215EF582B196F00001BD30D /* PBXContainerItemProxy */;
+		};
+		3215EF632B196F00001BD30D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3215EF402B196EFF001BD30D /* Arda */;
+			targetProxy = 3215EF622B196F00001BD30D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3215EF4A2B196EFF001BD30D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3215EF4B2B196EFF001BD30D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3215EF4F2B196EFF001BD30D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3215EF502B196EFF001BD30D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3215EF692B196F00001BD30D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3215EF6A2B196F00001BD30D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3215EF6C2B196F00001BD30D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Arda/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arda-CanUysal.Arda";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3215EF6D2B196F00001BD30D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Arda/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arda-CanUysal.Arda";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3215EF6F2B196F00001BD30D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arda-CanUysal.ArdaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arda.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Arda";
+			};
+			name = Debug;
+		};
+		3215EF702B196F00001BD30D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arda-CanUysal.ArdaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arda.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Arda";
+			};
+			name = Release;
+		};
+		3215EF722B196F00001BD30D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arda-CanUysal.ArdaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Arda;
+			};
+			name = Debug;
+		};
+		3215EF732B196F00001BD30D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arda-CanUysal.ArdaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Arda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3215EF3C2B196EFE001BD30D /* Build configuration list for PBXProject "Arda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3215EF692B196F00001BD30D /* Debug */,
+				3215EF6A2B196F00001BD30D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3215EF6B2B196F00001BD30D /* Build configuration list for PBXNativeTarget "Arda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3215EF6C2B196F00001BD30D /* Debug */,
+				3215EF6D2B196F00001BD30D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3215EF6E2B196F00001BD30D /* Build configuration list for PBXNativeTarget "ArdaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3215EF6F2B196F00001BD30D /* Debug */,
+				3215EF702B196F00001BD30D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3215EF712B196F00001BD30D /* Build configuration list for PBXNativeTarget "ArdaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3215EF722B196F00001BD30D /* Debug */,
+				3215EF732B196F00001BD30D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3215EF392B196EFE001BD30D /* Project object */;
+}
