@@ -70,10 +70,3 @@ class LoginViewController: UIViewController {
         }
     }
 }
-
-// MARK: - Playground Usage
-
-import PlaygroundSupport
-
-let loginViewController = LoginViewController()
-PlaygroundPage.current.liveView = loginViewController
